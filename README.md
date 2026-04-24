@@ -33,8 +33,7 @@ Um **dashboard web** totalmente interativo, desenvolvido com **Python**, **Panda
 
 ### 🚀 Deploy
 Acesse a versão ao vivo: https://dashboardsdadospy.streamlit.app/ 
-Código-fonte completo: **[github.com/felipebarboza58/dashboard-interativo](https://github.com/felipebarboza58/dashboard-interativo)**  
-
+  
 ### 📚 Por que este projeto?
 - **Velocidade**: de um CSV bruto a um painel visual em < 5 segundos.  
 - **Escalabilidade**: preparado para datasets com centenas de milhares de linhas.  
