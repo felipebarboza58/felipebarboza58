@@ -10,14 +10,14 @@
 
 # 🚀 Dashboard Interativo
 
-Um **dashboard web** totalmente interativo, desenvolvido com **Python**, **Pandas**, **Streamlit** e **Plotly**, pensado para transformar planilhas de vendas em insights acionáveis em poucos cliques.
+Um **dashboard web** totalmente interativo, desenvolvido com **Python**, **Pandas**, **Streamlit** e **Plotly**, pensado para transformar planilhas em insights acionáveis em poucos cliques.
 
 ### 🎯 Principais funcionalidades
-- **Filtros avançados** (categoria, região, faixa de preço e período) que podem ser combinados simultaneamente.  
-- **KPIs dinâmicos**: vendas, lucro, ticket médio, taxa de conversão e crescimento YoY, com sparklines integradas.  
+- **Filtros avançados** que podem ser combinados simultaneamente.  
+- **KPIs dinâmicos**:  
 - **Visualizações ricas**: gráficos de barra, linha e heatmap totalmente interativos (zoom, hover customizado, temas claro/escuro).  
 - **Exportação automática**: botão que gera um **CSV** consolidado + um **PDF** contendo todos os gráficos selecionados.  
-- **Insights por IA** (beta): integração leve com a API da OpenAI que descreve automaticamente padrões detectados (“A região Sudeste registrou queda de 12 % nas vendas do Q1”).  
+- **Insights por IA** (beta): integração leve com a API da OpenAI que descreve automaticamente padrões detectados.  
 - **Persistência de visualizações**: configurações de filtro e layout são salvas no *localStorage* e restauradas ao revisitar o dashboard.  
 - **Performance otimizada**: carregamento de dados em *chunks* (10 k linhas) e cache de consultas frequentes usando `@st.cache_data`.
 
